@@ -160,7 +160,7 @@ mv czk_intel_heif_avif_stable /Applications/
 </summary>
 
 <details>
-<summary>⚫ Nightly Apple Silicon Standard - Click to expand</summary>
+<summary>🟣 Nightly Apple Silicon Standard - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -172,7 +172,7 @@ mv czk_arm64_nightly /Applications/
 </details>
 
 <details>
-<summary>⚫ Nightly Apple Silicon with HEIF/AVIF - Click to expand</summary>
+<summary>🟠 Nightly Apple Silicon with HEIF/AVIF - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -184,7 +184,7 @@ mv czk_arm64_heif_avif_nightly /Applications/
 </details>
 
 <details>
-<summary>⚫ Nightly Intel Standard - Click to expand</summary>
+<summary>🟤 Nightly Intel Standard - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
