@@ -362,6 +362,7 @@ mv czk_intel_heif_avif_stable /Applications/
   - If issues persist, clear corrupted config files:
 ```bash
 rm -rf "$HOME/Library/Application Support/pl.Qarmin/Czkawka"
+
 rm -rf "$HOME/Library/Caches/pl.Qarmin.Czkawka"
 ```
 
@@ -375,12 +376,16 @@ rm -rf "$HOME/Library/Caches/pl.Qarmin.Czkawka"
 
 ```bash
 /Applications/czkawka 2>/dev/null &
+
+
 ```
 
 - **For Bug Reports:**
   - Enable detailed logging before reporting an issue:
 ```bash
 RUST_BACKTRACE=full /Applications/czkawka
+
+
 ```
 
 ---
@@ -414,12 +419,16 @@ Add this to your `~/.zshrc` file for easy terminal access:
 
 ```bash
 alias czk='/Applications/czkawka 2>/dev/null &'
+
+
 ```
 
 Then reload your shell:
 
 ```bash
 source ~/.zshrc
+
+
 ```
 
 Now you can simply type `czk` in any terminal to launch Czkawka!
