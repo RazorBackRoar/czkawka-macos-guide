@@ -107,9 +107,14 @@ These commands do all the work for you: they download, make the file executable,
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czk_arm64_stable "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_arm64"
+
+curl -L --progress-bar -o czk_arm64_stable \
+  "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_arm64"
+
 chmod +x czk_arm64_stable
+
 ./czk_arm64_stable 2>/dev/null
+
 mv czk_arm64_stable /Applications/
 ```
 </details>
@@ -119,9 +124,14 @@ mv czk_arm64_stable /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czk_arm64_heif_avif_stable "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_arm64"
+
+curl -L --progress-bar -o czk_arm64_heif_avif_stable \
+  "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_arm64"
+
 chmod +x czk_arm64_heif_avif_stable
+
 ./czk_arm64_heif_avif_stable 2>/dev/null
+
 mv czk_arm64_heif_avif_stable /Applications/
 ```
 </details>
@@ -131,9 +141,14 @@ mv czk_arm64_heif_avif_stable /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czk_intel_stable "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_x86_64"
+
+curl -L --progress-bar -o czk_intel_stable \
+  "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_x86_64"
+
 chmod +x czk_intel_stable
+
 ./czk_intel_stable 2>/dev/null
+
 mv czk_intel_stable /Applications/
 ```
 </details>
@@ -143,9 +158,14 @@ mv czk_intel_stable /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czk_intel_heif_avif_stable "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_x86_64"
+
+curl -L --progress-bar -o czk_intel_heif_avif_stable \
+  "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_x86_64"
+
 chmod +x czk_intel_heif_avif_stable
+
 ./czk_intel_heif_avif_stable 2>/dev/null
+
 mv czk_intel_heif_avif_stable /Applications/
 ```
 </details>
@@ -164,9 +184,14 @@ mv czk_intel_heif_avif_stable /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czk_arm64_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_arm64"
+
+curl -L --progress-bar -o czk_arm64_nightly \
+  "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_arm64"
+
 chmod +x czk_arm64_nightly
+
 ./czk_arm64_nightly 2>/dev/null
+
 mv czk_arm64_nightly /Applications/
 ```
 </details>
@@ -176,9 +201,14 @@ mv czk_arm64_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czk_arm64_heif_avif_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_arm64"
+
+curl -L --progress-bar -o czk_arm64_heif_avif_nightly \
+  "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_arm64"
+
 chmod +x czk_arm64_heif_avif_nightly
+
 ./czk_arm64_heif_avif_nightly 2>/dev/null
+
 mv czk_arm64_heif_avif_nightly /Applications/
 ```
 </details>
@@ -188,9 +218,14 @@ mv czk_arm64_heif_avif_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czk_intel_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_x86_64"
+
+curl -L --progress-bar -o czk_intel_nightly \
+  "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_x86_64"
+
 chmod +x czk_intel_nightly
+
 ./czk_intel_nightly 2>/dev/null
+
 mv czk_intel_nightly /Applications/
 ```
 </details>
@@ -200,9 +235,14 @@ mv czk_intel_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czk_intel_heif_avif_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_x86_64"
+
+curl -L --progress-bar -o czk_intel_heif_avif_nightly \
+  "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_x86_64"
+
 chmod +x czk_intel_heif_avif_nightly
+
 ./czk_intel_heif_avif_nightly 2>/dev/null
+
 mv czk_intel_heif_avif_nightly /Applications/
 ```
 </details>
