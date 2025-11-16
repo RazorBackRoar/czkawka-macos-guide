@@ -95,7 +95,12 @@ After choosing your build from the lists above, use one of the following methods
 
 These commands do all the work for you: they download, make the file executable, and move it to your Applications folder. Find your chosen build below, click to expand, then copy and paste the entire block into your terminal.
 
-**Stable Builds**
+---
+
+<details>
+<summary>
+<h2 align="center">⚪ ⚪ STABLE BUILDS ⚪ ⚪</h2>
+</summary>
 
 <details>
 <summary>Apple Silicon Standard - Click to expand</summary>
@@ -145,7 +150,14 @@ mv czk_intel_heif_avif_stable /Applications/
 ```
 </details>
 
-**Nightly Builds**
+</details>
+
+---
+
+<details>
+<summary>
+<h2 align="center">⚫ ⚫ NIGHTLY BUILDS ⚫ ⚫</h2>
+</summary>
 
 <details>
 <summary>Nightly Apple Silicon Standard - Click to expand</summary>
@@ -194,6 +206,10 @@ chmod +x czk_intel_heif_avif_nightly
 mv czk_intel_heif_avif_nightly /Applications/
 ```
 </details>
+
+</details>
+
+---
 
 ### Manual Installation
 
