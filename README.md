@@ -107,14 +107,9 @@ These commands do all the work for you: they download, make the file executable,
 
 ```bash
 cd "$HOME/Downloads"
-
-curl -L --progress-bar -o czk_arm64_stable \
-  "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_arm64"
-
+curl -L --progress-bar -o czk_arm64_stable "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_arm64"
 chmod +x czk_arm64_stable
-
 ./czk_arm64_stable 2>/dev/null
-
 mv czk_arm64_stable /Applications/
 ```
 </details>
@@ -124,14 +119,9 @@ mv czk_arm64_stable /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-
-curl -L --progress-bar -o czk_arm64_heif_avif_stable \
-  "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_arm64"
-
+curl -L --progress-bar -o czk_arm64_heif_avif_stable "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_arm64"
 chmod +x czk_arm64_heif_avif_stable
-
 ./czk_arm64_heif_avif_stable 2>/dev/null
-
 mv czk_arm64_heif_avif_stable /Applications/
 ```
 </details>
@@ -141,14 +131,9 @@ mv czk_arm64_heif_avif_stable /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-
-curl -L --progress-bar -o czk_intel_stable \
-  "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_x86_64"
-
+curl -L --progress-bar -o czk_intel_stable "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_x86_64"
 chmod +x czk_intel_stable
-
 ./czk_intel_stable 2>/dev/null
-
 mv czk_intel_stable /Applications/
 ```
 </details>
@@ -158,14 +143,9 @@ mv czk_intel_stable /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-
-curl -L --progress-bar -o czk_intel_heif_avif_stable \
-  "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_x86_64"
-
+curl -L --progress-bar -o czk_intel_heif_avif_stable "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_x86_64"
 chmod +x czk_intel_heif_avif_stable
-
 ./czk_intel_heif_avif_stable 2>/dev/null
-
 mv czk_intel_heif_avif_stable /Applications/
 ```
 </details>
@@ -184,14 +164,9 @@ mv czk_intel_heif_avif_stable /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-
-curl -L --progress-bar -o czk_arm64_nightly \
-  "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_arm64"
-
+curl -L --progress-bar -o czk_arm64_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_arm64"
 chmod +x czk_arm64_nightly
-
 ./czk_arm64_nightly 2>/dev/null
-
 mv czk_arm64_nightly /Applications/
 ```
 </details>
@@ -201,14 +176,9 @@ mv czk_arm64_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-
-curl -L --progress-bar -o czk_arm64_heif_avif_nightly \
-  "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_arm64"
-
+curl -L --progress-bar -o czk_arm64_heif_avif_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_arm64"
 chmod +x czk_arm64_heif_avif_nightly
-
 ./czk_arm64_heif_avif_nightly 2>/dev/null
-
 mv czk_arm64_heif_avif_nightly /Applications/
 ```
 </details>
@@ -218,14 +188,9 @@ mv czk_arm64_heif_avif_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-
-curl -L --progress-bar -o czk_intel_nightly \
-  "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_x86_64"
-
+curl -L --progress-bar -o czk_intel_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_x86_64"
 chmod +x czk_intel_nightly
-
 ./czk_intel_nightly 2>/dev/null
-
 mv czk_intel_nightly /Applications/
 ```
 </details>
@@ -235,14 +200,9 @@ mv czk_intel_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-
-curl -L --progress-bar -o czk_intel_heif_avif_nightly \
-  "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_x86_64"
-
+curl -L --progress-bar -o czk_intel_heif_avif_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_x86_64"
 chmod +x czk_intel_heif_avif_nightly
-
 ./czk_intel_heif_avif_nightly 2>/dev/null
-
 mv czk_intel_heif_avif_nightly /Applications/
 ```
 </details>
@@ -261,52 +221,36 @@ If you prefer downloading manually from the links above:
 **For Apple Silicon Standard (Stable):**
 ```bash
 cd "$HOME/Downloads"
-
 mv mac_czkawka_gui_arm64 czk_arm64_stable
-
 chmod +x czk_arm64_stable
-
 ./czk_arm64_stable 2>/dev/null
-
 mv czk_arm64_stable /Applications/
 ```
 
 **For Apple Silicon with HEIF/AVIF (Stable):**
 ```bash
 cd "$HOME/Downloads"
-
 mv mac_czkawka_gui_heif_avif_arm64 czk_arm64_heif_avif_stable
-
 chmod +x czk_arm64_heif_avif_stable
-
 ./czk_arm64_heif_avif_stable 2>/dev/null
-
 mv czk_arm64_heif_avif_stable /Applications/
 ```
 
 **For Intel Standard (Stable):**
 ```bash
 cd "$HOME/Downloads"
-
 mv mac_czkawka_gui_x86_64 czk_intel_stable
-
 chmod +x czk_intel_stable
-
 ./czk_intel_stable 2>/dev/null
-
 mv czk_intel_stable /Applications/
 ```
 
 **For Intel with HEIF/AVIF (Stable):**
 ```bash
 cd "$HOME/Downloads"
-
 mv mac_czkawka_gui_heif_avif_x86_64 czk_intel_heif_avif_stable
-
 chmod +x czk_intel_heif_avif_stable
-
 ./czk_intel_heif_avif_stable 2>/dev/null
-
 mv czk_intel_heif_avif_stable /Applications/
 ```
 
@@ -362,7 +306,6 @@ mv czk_intel_heif_avif_stable /Applications/
   - If issues persist, clear corrupted config files:
 ```bash
 rm -rf "$HOME/Library/Application Support/pl.Qarmin/Czkawka"
-
 rm -rf "$HOME/Library/Caches/pl.Qarmin.Czkawka"
 ```
 
@@ -376,16 +319,12 @@ rm -rf "$HOME/Library/Caches/pl.Qarmin.Czkawka"
 
 ```bash
 /Applications/czkawka 2>/dev/null &
-
-
 ```
 
 - **For Bug Reports:**
   - Enable detailed logging before reporting an issue:
 ```bash
 RUST_BACKTRACE=full /Applications/czkawka
-
-
 ```
 
 ---
@@ -419,16 +358,12 @@ Add this to your `~/.zshrc` file for easy terminal access:
 
 ```bash
 alias czk='/Applications/czkawka 2>/dev/null &'
-
-
 ```
 
 Then reload your shell:
 
 ```bash
 source ~/.zshrc
-
-
 ```
 
 Now you can simply type `czk` in any terminal to launch Czkawka!
