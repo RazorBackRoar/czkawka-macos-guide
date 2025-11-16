@@ -87,6 +87,8 @@ Latest Intel version with new features and full format support.
 
 ## ⚙️ Installation
 
+> **Note:** All installation commands use `2>/dev/null` to suppress harmless GTK4 framework warnings that can appear in the terminal. This doesn't hide actual errors - if the installation fails, you'll still see the error message.
+
 After choosing your build from the lists above, use one of the following methods. The automated terminal method is recommended.
 
 ### Automated Installation via Terminal (Recommended)
@@ -102,7 +104,7 @@ These commands do all the work for you: they download, make the file executable,
 cd "$HOME/Downloads"
 curl -L -o czkawka "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_arm64"
 chmod +x czkawka
-./czkawka
+./czkawka 2>/dev/null
 mv czkawka /Applications/
 ```
 </details>
@@ -114,7 +116,7 @@ mv czkawka /Applications/
 cd "$HOME/Downloads"
 curl -L -o czkawka "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_arm64"
 chmod +x czkawka
-./czkawka
+./czkawka 2>/dev/null
 mv czkawka /Applications/
 ```
 </details>
@@ -126,7 +128,7 @@ mv czkawka /Applications/
 cd "$HOME/Downloads"
 curl -L -o czkawka "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_x86_64"
 chmod +x czkawka
-./czkawka
+./czkawka 2>/dev/null
 mv czkawka /Applications/
 ```
 </details>
@@ -138,7 +140,7 @@ mv czkawka /Applications/
 cd "$HOME/Downloads"
 curl -L -o czkawka "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_x86_64"
 chmod +x czkawka
-./czkawka
+./czkawka 2>/dev/null
 mv czkawka /Applications/
 ```
 </details>
@@ -152,7 +154,7 @@ mv czkawka /Applications/
 cd "$HOME/Downloads"
 curl -L -o czkawka_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_arm64"
 chmod +x czkawka_nightly
-./czkawka_nightly
+./czkawka_nightly 2>/dev/null
 mv czkawka_nightly /Applications/
 ```
 </details>
@@ -164,7 +166,7 @@ mv czkawka_nightly /Applications/
 cd "$HOME/Downloads"
 curl -L -o czkawka_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_arm64"
 chmod +x czkawka_nightly
-./czkawka_nightly
+./czkawka_nightly 2>/dev/null
 mv czkawka_nightly /Applications/
 ```
 </details>
@@ -176,7 +178,7 @@ mv czkawka_nightly /Applications/
 cd "$HOME/Downloads"
 curl -L -o czkawka_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_x86_64"
 chmod +x czkawka_nightly
-./czkawka_nightly
+./czkawka_nightly 2>/dev/null
 mv czkawka_nightly /Applications/
 ```
 </details>
@@ -188,7 +190,7 @@ mv czkawka_nightly /Applications/
 cd "$HOME/Downloads"
 curl -L -o czkawka_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_x86_64"
 chmod +x czkawka_nightly
-./czkawka_nightly
+./czkawka_nightly 2>/dev/null
 mv czkawka_nightly /Applications/
 ```
 </details>
@@ -204,7 +206,7 @@ If you prefer downloading manually from the links above:
 cd "$HOME/Downloads"                                      # 📁 Navigate to Downloads
 mv mac_czkawka_gui_heif_avif_arm64 czkawka              # ✏️ Rename (adjust filename as needed)
 chmod +x czkawka                                         # 🔓 Make executable
-./czkawka                                               # 🚀 Test run
+./czkawka 2>/dev/null                                   # 🚀 Test run
 mv czkawka /Applications/                               # 📦 Move to Applications
 ```
 
