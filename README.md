@@ -102,10 +102,10 @@ These commands do all the work for you: they download, make the file executable,
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czkawka "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_arm64"
-chmod +x czkawka
-./czkawka 2>/dev/null
-mv czkawka /Applications/
+curl -L --progress-bar -o czk_arm64 "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_arm64"
+chmod +x czk_arm64
+./czk_arm64 2>/dev/null
+mv czk_arm64 /Applications/
 ```
 </details>
 
@@ -114,10 +114,10 @@ mv czkawka /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czkawka "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_arm64"
-chmod +x czkawka
-./czkawka 2>/dev/null
-mv czkawka /Applications/
+curl -L --progress-bar -o czk_heif_avif_arm64 "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_arm64"
+chmod +x czk_heif_avif_arm64
+./czk_heif_avif_arm64 2>/dev/null
+mv czk_heif_avif_arm64 /Applications/
 ```
 </details>
 
@@ -126,10 +126,10 @@ mv czkawka /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czkawka "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_x86_64"
-chmod +x czkawka
-./czkawka 2>/dev/null
-mv czkawka /Applications/
+curl -L --progress-bar -o czk_intel "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_x86_64"
+chmod +x czk_intel
+./czk_intel 2>/dev/null
+mv czk_intel /Applications/
 ```
 </details>
 
@@ -138,10 +138,10 @@ mv czkawka /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czkawka "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_x86_64"
-chmod +x czkawka
-./czkawka 2>/dev/null
-mv czkawka /Applications/
+curl -L --progress-bar -o czk_heif_avif_intel "https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_x86_64"
+chmod +x czk_heif_avif_intel
+./czk_heif_avif_intel 2>/dev/null
+mv czk_heif_avif_intel /Applications/
 ```
 </details>
 
@@ -152,10 +152,10 @@ mv czkawka /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czkawka_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_arm64"
-chmod +x czkawka_nightly
-./czkawka_nightly 2>/dev/null
-mv czkawka_nightly /Applications/
+curl -L --progress-bar -o czk_arm64_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_arm64"
+chmod +x czk_arm64_nightly
+./czk_arm64_nightly 2>/dev/null
+mv czk_arm64_nightly /Applications/
 ```
 </details>
 
@@ -164,10 +164,10 @@ mv czkawka_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czkawka_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_arm64"
-chmod +x czkawka_nightly
-./czkawka_nightly 2>/dev/null
-mv czkawka_nightly /Applications/
+curl -L --progress-bar -o czk_heif_avif_arm64_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_arm64"
+chmod +x czk_heif_avif_arm64_nightly
+./czk_heif_avif_arm64_nightly 2>/dev/null
+mv czk_heif_avif_arm64_nightly /Applications/
 ```
 </details>
 
@@ -176,10 +176,10 @@ mv czkawka_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czkawka_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_x86_64"
-chmod +x czkawka_nightly
-./czkawka_nightly 2>/dev/null
-mv czkawka_nightly /Applications/
+curl -L --progress-bar -o czk_intel_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_x86_64"
+chmod +x czk_intel_nightly
+./czk_intel_nightly 2>/dev/null
+mv czk_intel_nightly /Applications/
 ```
 </details>
 
@@ -188,10 +188,10 @@ mv czkawka_nightly /Applications/
 
 ```bash
 cd "$HOME/Downloads"
-curl -L --progress-bar -o czkawka_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_x86_64"
-chmod +x czkawka_nightly
-./czkawka_nightly 2>/dev/null
-mv czkawka_nightly /Applications/
+curl -L --progress-bar -o czk_heif_avif_intel_nightly "https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_x86_64"
+chmod +x czk_heif_avif_intel_nightly
+./czk_heif_avif_intel_nightly 2>/dev/null
+mv czk_heif_avif_intel_nightly /Applications/
 ```
 </details>
 
