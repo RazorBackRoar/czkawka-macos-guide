@@ -103,7 +103,7 @@ These commands do all the work for you: they download, make the file executable,
 </summary>
 
 <details>
-<summary>Apple Silicon Standard - Click to expand</summary>
+<summary>🔵 Apple Silicon Standard - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -115,7 +115,7 @@ mv czk_arm64_stable /Applications/
 </details>
 
 <details>
-<summary>Apple Silicon with HEIF/AVIF - Click to expand</summary>
+<summary>🔴 Apple Silicon with HEIF/AVIF - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -127,7 +127,7 @@ mv czk_arm64_heif_avif_stable /Applications/
 </details>
 
 <details>
-<summary>Intel Standard - Click to expand</summary>
+<summary>🟢 Intel Standard - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -139,7 +139,7 @@ mv czk_intel_stable /Applications/
 </details>
 
 <details>
-<summary>Intel with HEIF/AVIF - Click to expand</summary>
+<summary>🟡 Intel with HEIF/AVIF - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -160,7 +160,7 @@ mv czk_intel_heif_avif_stable /Applications/
 </summary>
 
 <details>
-<summary>Nightly Apple Silicon Standard - Click to expand</summary>
+<summary>⚫ Nightly Apple Silicon Standard - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -172,7 +172,7 @@ mv czk_arm64_nightly /Applications/
 </details>
 
 <details>
-<summary>Nightly Apple Silicon with HEIF/AVIF - Click to expand</summary>
+<summary>⚫ Nightly Apple Silicon with HEIF/AVIF - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -184,7 +184,7 @@ mv czk_arm64_heif_avif_nightly /Applications/
 </details>
 
 <details>
-<summary>Nightly Intel Standard - Click to expand</summary>
+<summary>⚫ Nightly Intel Standard - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
@@ -196,7 +196,7 @@ mv czk_intel_nightly /Applications/
 </details>
 
 <details>
-<summary>Nightly Intel with HEIF/AVIF - Click to expand</summary>
+<summary>⚫ Nightly Intel with HEIF/AVIF - Click to expand</summary>
 
 ```bash
 cd "$HOME/Downloads"
