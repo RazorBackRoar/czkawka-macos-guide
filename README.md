@@ -261,47 +261,63 @@ If you prefer downloading manually from the links above:
 **For Apple Silicon Standard (Stable):**
 ```bash
 cd "$HOME/Downloads"
+
 mv mac_czkawka_gui_arm64 czk_arm64_stable
+
 chmod +x czk_arm64_stable
+
 ./czk_arm64_stable 2>/dev/null
+
 mv czk_arm64_stable /Applications/
 ```
 
 **For Apple Silicon with HEIF/AVIF (Stable):**
 ```bash
 cd "$HOME/Downloads"
+
 mv mac_czkawka_gui_heif_avif_arm64 czk_arm64_heif_avif_stable
+
 chmod +x czk_arm64_heif_avif_stable
+
 ./czk_arm64_heif_avif_stable 2>/dev/null
+
 mv czk_arm64_heif_avif_stable /Applications/
 ```
 
 **For Intel Standard (Stable):**
 ```bash
 cd "$HOME/Downloads"
+
 mv mac_czkawka_gui_x86_64 czk_intel_stable
+
 chmod +x czk_intel_stable
+
 ./czk_intel_stable 2>/dev/null
+
 mv czk_intel_stable /Applications/
 ```
 
 **For Intel with HEIF/AVIF (Stable):**
 ```bash
 cd "$HOME/Downloads"
+
 mv mac_czkawka_gui_heif_avif_x86_64 czk_intel_heif_avif_stable
+
 chmod +x czk_intel_heif_avif_stable
+
 ./czk_intel_heif_avif_stable 2>/dev/null
+
 mv czk_intel_heif_avif_stable /Applications/
 ```
 
 **For Nightly builds:** Replace `_stable` with `_nightly` in the commands above.
 
 **What These Commands Do:**
-- 📁 Navigate to your Downloads folder
-- ✏️ Rename the downloaded file to a cleaner, descriptive name
-- 🔓 Make it executable
-- 🚀 Run it to test it opens properly
-- 📦 Move to Applications for easy GUI access
+- Navigate to your Downloads folder
+- Rename the downloaded file to a cleaner, descriptive name
+- Make it executable
+- Run it to test it opens properly
+- Move to Applications for easy GUI access
 
 ---
 
