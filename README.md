@@ -218,7 +218,7 @@ If you prefer downloading manually from the links above:
 1.  Download the appropriate file by clicking the link.
 2.  Open your terminal and run these commands (adjust the filenames based on what you downloaded):
 
-**🔵 For Apple Silicon Standard (Stable):**
+**🔵 For Apple Silicon Standard (Stable) 🔵**
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_arm64 czk_arm64_stable
@@ -227,7 +227,7 @@ chmod +x czk_arm64_stable
 mv czk_arm64_stable /Applications/
 ```
 
-**🔴 For Apple Silicon with HEIF/AVIF (Stable):**
+**🔴 For Apple Silicon with HEIF/AVIF (Stable) 🔴**
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_heif_avif_arm64 czk_arm64_heif_avif_stable
@@ -236,7 +236,7 @@ chmod +x czk_arm64_heif_avif_stable
 mv czk_arm64_heif_avif_stable /Applications/
 ```
 
-**🟢 For Intel Standard (Stable):**
+**🟢 For Intel Standard (Stable) 🟢**
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_x86_64 czk_intel_stable
@@ -245,7 +245,7 @@ chmod +x czk_intel_stable
 mv czk_intel_stable /Applications/
 ```
 
-**🟡 For Intel with HEIF/AVIF (Stable):**
+**🟡 For Intel with HEIF/AVIF (Stable) 🟡**
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_heif_avif_x86_64 czk_intel_heif_avif_stable
@@ -256,7 +256,7 @@ mv czk_intel_heif_avif_stable /Applications/
 
 **For Nightly builds:** Replace `_stable` with `_nightly` in the commands above.
 
-**🟣 For Apple Silicon Standard (Nightly):**
+**🟣 For Apple Silicon Standard (Nightly) 🟣**
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_arm64 czk_arm64_nightly
@@ -265,7 +265,7 @@ chmod +x czk_arm64_nightly
 mv czk_arm64_nightly /Applications/
 ```
 
-**🟠 For Apple Silicon with HEIF/AVIF (Nightly):**
+**🟠 For Apple Silicon with HEIF/AVIF (Nightly) 🟠**
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_heif_avif_arm64 czk_arm64_heif_avif_nightly
@@ -274,7 +274,7 @@ chmod +x czk_arm64_heif_avif_nightly
 mv czk_arm64_heif_avif_nightly /Applications/
 ```
 
-**🟤 For Intel Standard (Nightly):**
+**🟤 For Intel Standard (Nightly) 🟤**
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_x86_64 czk_intel_nightly
@@ -283,7 +283,7 @@ chmod +x czk_intel_nightly
 mv czk_intel_nightly /Applications/
 ```
 
-**⚫ For Intel with HEIF/AVIF (Nightly):**
+**⚫ For Intel with HEIF/AVIF (Nightly) ⚫**
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_heif_avif_x86_64 czk_intel_heif_avif_nightly
