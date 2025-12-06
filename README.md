@@ -32,6 +32,7 @@ A complete, no-nonsense guide to install and run **Czkawka** on macOS (both Inte
 ## 🪝 What is Czkawka?
 
 Czkawka is a lightning-fast, multi-purpose file cleaner that can:
+
 - Remove duplicate files
 - Detect similar images/videos
 - Locate empty folders and large files
@@ -46,6 +47,7 @@ Free, open-source, written in Rust. No installer needed.
 ## 💻 MacBook Requirements
 
 **Check your Mac's chip type:**
+
 - **Apple Silicon:** `M1 / M2 / M3 / M4`
 - **Intel:** `i5 / i7 / i9`
 
@@ -56,15 +58,19 @@ You can verify this by running `uname -m` in your terminal: `arm64` means Apple 
 ## ⚪ Stable Builds (10.0.0)
 
 ### 🔵 [Apple Silicon Standard](https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_arm64)
+
 Basic Apple Silicon version without HEIF/AVIF support.
 
 ### 🔴 [Apple Silicon with HEIF/AVIF](https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_arm64)
+
 Apple Silicon version with full support for modern image formats.
 
 ### 🟢 [Intel Standard](https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_x86_64)
+
 Basic Intel version without HEIF/AVIF support.
 
 ### 🟡 [Intel with HEIF/AVIF](https://github.com/qarmin/czkawka/releases/download/10.0.0/mac_czkawka_gui_heif_avif_x86_64)
+
 Intel version with full support for modern image formats.
 
 ---
@@ -72,15 +78,19 @@ Intel version with full support for modern image formats.
 ## ⚫ Nightly Builds (Development)
 
 ### 🟣 [Nightly Apple Silicon Standard](https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_arm64)
+
 Latest Apple Silicon version with new features, but no HEIF/AVIF support.
 
 ### 🟠 [Nightly Apple Silicon with HEIF/AVIF](https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_arm64)
+
 Latest Apple Silicon version with new features and full format support.
 
 ### 🟤 [Nightly Intel Standard](https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_x86_64)
+
 Latest Intel version with new features, but no HEIF/AVIF support.
 
 ### ⚫ [Nightly Intel with HEIF/AVIF](https://github.com/qarmin/czkawka/releases/download/Nightly/mac_czkawka_gui_heif_avif_x86_64)
+
 Latest Intel version with new features and full format support.
 
 ---
@@ -112,6 +122,7 @@ chmod +x czk_arm64_stable
 ./czk_arm64_stable 2>/dev/null
 mv czk_arm64_stable /Applications/
 ```
+
 </details>
 
 <details>
@@ -124,6 +135,7 @@ chmod +x czk_arm64_heif_avif_stable
 ./czk_arm64_heif_avif_stable 2>/dev/null
 mv czk_arm64_heif_avif_stable /Applications/
 ```
+
 </details>
 
 <details>
@@ -136,6 +148,7 @@ chmod +x czk_intel_stable
 ./czk_intel_stable 2>/dev/null
 mv czk_intel_stable /Applications/
 ```
+
 </details>
 
 <details>
@@ -148,6 +161,7 @@ chmod +x czk_intel_heif_avif_stable
 ./czk_intel_heif_avif_stable 2>/dev/null
 mv czk_intel_heif_avif_stable /Applications/
 ```
+
 </details>
 
 </details>
@@ -169,6 +183,7 @@ chmod +x czk_arm64_nightly
 ./czk_arm64_nightly 2>/dev/null
 mv czk_arm64_nightly /Applications/
 ```
+
 </details>
 
 <details>
@@ -181,6 +196,7 @@ chmod +x czk_arm64_heif_avif_nightly
 ./czk_arm64_heif_avif_nightly 2>/dev/null
 mv czk_arm64_heif_avif_nightly /Applications/
 ```
+
 </details>
 
 <details>
@@ -193,6 +209,7 @@ chmod +x czk_intel_nightly
 ./czk_intel_nightly 2>/dev/null
 mv czk_intel_nightly /Applications/
 ```
+
 </details>
 
 <details>
@@ -205,6 +222,7 @@ chmod +x czk_intel_heif_avif_nightly
 ./czk_intel_heif_avif_nightly 2>/dev/null
 mv czk_intel_heif_avif_nightly /Applications/
 ```
+
 </details>
 
 </details>
@@ -215,10 +233,11 @@ mv czk_intel_heif_avif_nightly /Applications/
 
 If you prefer downloading manually from the links above:
 
-1.  Download the appropriate file by clicking the link.
-2.  Open your terminal and run these commands (adjust the filenames based on what you downloaded):
+1. Download the appropriate file by clicking the link.
+2. Open your terminal and run these commands (adjust the filenames based on what you downloaded):
 
 **🔵 For Apple Silicon Standard (Stable) 🔵**
+
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_arm64 czk_arm64_stable
@@ -228,6 +247,7 @@ mv czk_arm64_stable /Applications/
 ```
 
 **🔴 For Apple Silicon with HEIF/AVIF (Stable) 🔴**
+
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_heif_avif_arm64 czk_arm64_heif_avif_stable
@@ -237,6 +257,7 @@ mv czk_arm64_heif_avif_stable /Applications/
 ```
 
 **🟢 For Intel Standard (Stable) 🟢**
+
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_x86_64 czk_intel_stable
@@ -246,6 +267,7 @@ mv czk_intel_stable /Applications/
 ```
 
 **🟡 For Intel with HEIF/AVIF (Stable) 🟡**
+
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_heif_avif_x86_64 czk_intel_heif_avif_stable
@@ -257,6 +279,7 @@ mv czk_intel_heif_avif_stable /Applications/
 **For Nightly builds:** Replace `_stable` with `_nightly` in the commands above.
 
 **🟣 For Apple Silicon Standard (Nightly) 🟣**
+
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_arm64 czk_arm64_nightly
@@ -266,6 +289,7 @@ mv czk_arm64_nightly /Applications/
 ```
 
 **🟠 For Apple Silicon with HEIF/AVIF (Nightly) 🟠**
+
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_heif_avif_arm64 czk_arm64_heif_avif_nightly
@@ -275,6 +299,7 @@ mv czk_arm64_heif_avif_nightly /Applications/
 ```
 
 **🟤 For Intel Standard (Nightly) 🟤**
+
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_x86_64 czk_intel_nightly
@@ -284,6 +309,7 @@ mv czk_intel_nightly /Applications/
 ```
 
 **⚫ For Intel with HEIF/AVIF (Nightly) ⚫**
+
 ```bash
 cd "$HOME/Downloads"
 mv mac_czkawka_gui_heif_avif_x86_64 czk_intel_heif_avif_nightly
@@ -293,6 +319,7 @@ mv czk_intel_heif_avif_nightly /Applications/
 ```
 
 **What These Commands Do:**
+
 - Navigate to your Downloads folder
 - Rename the downloaded file to a cleaner, descriptive name
 - Make it executable
@@ -305,13 +332,14 @@ mv czk_intel_heif_avif_nightly /Applications/
 
 **Full Disk Access**
 
-1.  Open **System Preferences** → **Security & Privacy** → **Privacy**.
-2.  Select **Full Disk Access** from the sidebar.
-3.  Click the lock icon and enter your password.
-4.  Click the `➕` button and add both your **Terminal** app and the **Czkawka** app from your `/Applications` folder.
-5.  Ensure the checkboxes next to them are enabled.
+1. Open **System Preferences** → **Security & Privacy** → **Privacy**.
+2. Select **Full Disk Access** from the sidebar.
+3. Click the lock icon and enter your password.
+4. Click the `➕` button and add both your **Terminal** app and the **Czkawka** app from your `/Applications` folder.
+5. Ensure the checkboxes next to them are enabled.
 
 **If macOS Blocks the App**
+
 - Go to **System Settings** → **Privacy & Security**, scroll down, and click **"Open Anyway"**.
 
 ---
@@ -322,9 +350,10 @@ mv czk_intel_heif_avif_nightly /Applications/
 - **Terminal:** Run `/Applications/czkawka` or `/Applications/czkawka_nightly`
 
 **Recommended Settings:**
+
 - **Mode:** Duplicates
 - **Method:** Hash (Blake3 is fastest)
-- **Threads:** 4–8 for Apple Silicon, 2–4 for Intel
+- **Threads:** 4–8 for Apple Silicon, 2–4 for Intel (See [Performance Guide](PERFORMANCE.md) for details)
 
 ---
 
@@ -340,6 +369,7 @@ mv czk_intel_heif_avif_nightly /Applications/
 - **Pixbuf/Image Loading Crashes:**
   - If a HEIF/AVIF build crashes, try the Standard Build for your chip.
   - If issues persist, clear corrupted config files:
+
 ```bash
 rm -rf "$HOME/Library/Application Support/pl.Qarmin/Czkawka"
 rm -rf "$HOME/Library/Caches/pl.Qarmin.Czkawka"
@@ -359,6 +389,7 @@ rm -rf "$HOME/Library/Caches/pl.Qarmin.Czkawka"
 
 - **For Bug Reports:**
   - Enable detailed logging before reporting an issue:
+
 ```bash
 RUST_BACKTRACE=full /Applications/czkawka
 ```
@@ -382,7 +413,7 @@ RUST_BACKTRACE=full /Applications/czkawka
 
 ---
 
-### 🎉 Done!
+### 🎉 Done
 
 Enjoy a faster, cleaner Mac experience. Czkawka does the dirty work so you don't have to.
 
@@ -408,7 +439,7 @@ Now you can simply type `czk` in any terminal to launch Czkawka!
 
 ## 📄 License & Attribution
 
-This guide is provided as-is for educational purposes. 
+This guide is provided as-is for educational purposes.
 
 **Czkawka** is developed by [qarmin](https://github.com/qarmin) and contributors. The original project and its icons are licensed under their respective licenses (see the [original repository](https://github.com/qarmin/czkawka) for details).
 
